@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,400;1,200;1,600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    position: relative;
+}
+main div img{
+    width: 100%;
+    height: 100vh;
+}
+.context{
+    color: white;
+}
+.context h1{
+    position: absolute;
+    width: 830px;
+    height: 75px;
+    left: 359px;
+    top: 288px;
+    right: 301px;
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 75px;
+
+    color: #FFFFFF;
+}
+span{
+    font-weight: 900;
+}
+.context p{
+    position: absolute;
+    width: 822px;
+    height: 62px;
+    left: 359px;
+    top: 412px;
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 31px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.context .left{
+    position: absolute;
+    left: 3.82%;
+    right: 94.79%;
+    top: 48.1%;
+    bottom: 47.9%;
+    max-width: 2%;
+    max-height: 3%;
+
+}
+.context .right{
+    position: absolute;
+    left: 94.44%;
+    right: 4.17%;
+    top: 48.1%;
+    bottom: 47.9%;
+    max-width: 2%;
+    max-height: 3%;
+
+}
+.buttonsection{
+    position: absolute;
+    top: 548px;
+    left: 550px;
+}
+.buttonsection a{
+    text-decoration: none;
+    color: black;
+    padding: 21px 80px;
+    margin-right: 20px;
+    margin: 60p;
+    background-color: #FFFFFF;
+    font-family: mulish;
+    font-weight: 500;
+}
+.buttonsection a .left{
+    position: absolute;
+    
+}
