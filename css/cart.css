@@ -42,7 +42,7 @@ main{
     line-height: 63px;
 }
 .menuheader hr{
-    width: 306px;
+    width: 134px;
     height: 5px;
     left: 243px;
     top: 106px;
@@ -58,39 +58,48 @@ main{
     left: 243px;
     top: 154px;
 }
-.item{
-    border-radius: 2px;
-    margin-right: 66px;
+.cartlist{
+    width: 608px;
+    height: 612px;
+    left: 244px;
+    top: 135px;
+    background: #F1D5BB;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
-.item p{
-    text-align: center;
-    font-family: 'Mulish';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 25px;
-    padding: 8px;
-    /* identical to box height */
-
-    color: #000000;
+.cartlist div{
+    height: 90px;
+    left: 264px;
+    top: 172px;
 }
-.load{
-    position: absolute;
-    width: 194px;
-    height: 54px;
-    left: 676px;
-    top: 841px;
-    padding: 14px 38px;
-
-    background: #000000;
-    border-radius: 2px;
-    text-decoration: none;
-    font-family: 'Mulish';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 20px;
-    line-height: 25px;
-    color: #FFFFFF;
+.rowlist{
+    display: flex;
+    justify-content: space-around;
+}
+.sidebarcart{
+    width: 443px;
+    height: 575px;
+    left: 893px;
+    top: 135px;
+    margin-left: 40px;
+}
+.subtotal{
+    width: 443px;
+    height: 286px;
+    left: 893px;
+    top: 135px;
+    background: #F1D5BB;
+    border-radius: 3px;
+}
+.promocode{
+    box-sizing: border-box;
+    width: 443px;
+    height: 326px;
+    left: 893px;
+    top: 417px;
+    border: 1px solid #F1D5BB;
 }
 footer{
     position: absolute;
