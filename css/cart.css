@@ -60,7 +60,7 @@ main{
     display: flex;
 }
 .cartlist{
-    padding: 30px 0;
+    padding: 30px 30px;
     width: 608px;
     height: 612px;
     left: 244px;
@@ -70,7 +70,6 @@ main{
     display: grid;
     grid-template-columns: 608px;
     gap: 58px;
-    justify-content: space-evenly;
 }
 .cartlist div{
     height: 90px;
@@ -81,8 +80,7 @@ main{
 .rowlist{
     display: grid;
     grid-template-columns: 1fr 2fr 1fr 1fr;
-    justify-content: space-around;
-    justify-items:center ;
+    
 }
 .rowlist aside{
 
@@ -109,6 +107,45 @@ main{
     top: 135px;
     background: #F1D5BB;
     border-radius: 3px;
+    padding: 30px;
+    font-family: 'Mulish';
+    font-style: normal;
+}
+.subtotal h2{
+    width: 249px;
+    height: 50px;
+    left: 933px;
+    top: 157px;
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 40px;
+}
+.subtotal h3 p{
+    display: inline-block;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+.subtotal a{
+    display: block;
+    text-decoration: none;
+    width: 365px;
+    height: 78px;
+    left: 933px;
+    top: 313px;
+    text-align: center;
+    justify-content: center;
+    background: #000000;
+    color: white;
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
 }
 .promocode{
     box-sizing: border-box;
