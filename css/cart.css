@@ -50,33 +50,50 @@ main{
     background: #d4863d;
     
 }
-.menuitems{
+.menuitem{
     position: absolute;
     margin-top: 23px;
     width: 1195px;
     height: 652px;
     left: 243px;
     top: 154px;
+    display: flex;
 }
 .cartlist{
+    padding: 30px 0;
     width: 608px;
     height: 612px;
     left: 244px;
     top: 135px;
     background: #F1D5BB;
     border-radius: 3px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 608px;
+    gap: 58px;
+    justify-content: space-evenly;
 }
 .cartlist div{
     height: 90px;
     left: 264px;
     top: 172px;
+    font-family: mulish;
 }
 .rowlist{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
     justify-content: space-around;
+    justify-items:center ;
+}
+.rowlist aside{
+
+}
+.text{
+    margin-top: 10px;
+    font-weight: 900;
+}
+.text span a{
+    text-decoration: none;
+    color: #000000;
 }
 .sidebarcart{
     width: 443px;
